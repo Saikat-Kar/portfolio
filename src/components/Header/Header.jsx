@@ -1,13 +1,12 @@
-import React from 'react'
-import {ReactNavbar} from "overlay-navbar";
+import React from "react";
+import { ReactNavbar } from "overlay-navbar";
 import logo from "../../Images/logo.jpg";
 // eslint-disable-next-line
-import {FaUserAlt} from "react-icons/fa";
+import { FaUserAlt } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <ReactNavbar 
-
+    <ReactNavbar
       navColor1="white"
       navColor2="hsl(219, 48%, 8%)"
       burgerColor="hsl(250, 100%, 75%)"
@@ -29,16 +28,10 @@ const Header = () => {
       link1Padding="3vamx"
       link3Padding="2vmax"
       link1Color="HSL(250, 100%, 75%)"
-      // profileIcon={true}
-      // profileIconElement={FaUserAlt}
-
-      
-      
-      
-
-
+      profileIcon={true}
+      ProfileIconElement={FaUserAlt}
     />
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
