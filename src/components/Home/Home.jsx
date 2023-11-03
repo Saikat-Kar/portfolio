@@ -112,7 +112,7 @@ const Home = () => {
 
         <div className="homeCubeSkills">
           <div className="homeCubeSkillsFaces homeCubeSkillsFace1">
-            <img src="https://placehold.jp/150x150.png" alt="face1"></img>
+            <img src="https://picsum.photos/200/300" alt="face1"></img>
           </div>
 
           <div className="homeCubeSkillsFaces homeCubeSkillsFace2">
